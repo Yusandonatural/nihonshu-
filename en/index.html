@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Peace "以和為貴" Junmai Ginjo ― Natural Sake from Nara, Japan | YUSANDO</title>
+<meta name="description" content="Sake brewed from a single rice: Hatsushimo, grown without pesticides or fertilizer and seed-saved for over fifteen years, brewed at Kuramoto Shuzo in Tsuge, Nara.">
+<link rel="alternate" hreflang="ja" href="https://sake.yusando.com/">
+<link rel="alternate" hreflang="en" href="https://sake.yusando.com/en/">
+<link rel="alternate" hreflang="x-default" href="https://sake.yusando.com/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<style>
+.snsk{--sumi:#1f1c1a;--sumi2:#3a3531;--kinari:#f7f4ec;--kinari2:#efe9db;--ai:#1e3a5f;--ai2:#16293f;--kin:#b08d3e;--kin2:#c9ad6e;--hai:#8a8378;
+ font-family:Georgia,"Iowan Old Style","Times New Roman",serif;
+ background:var(--kinari);color:var(--sumi);line-height:1.85;letter-spacing:.01em;
+ width:100%;position:relative;overflow-x:hidden;}
+.snsk *{margin:0;padding:0;box-sizing:border-box;}
+.snsk img{max-width:100%;display:block;}
+.snsk a{color:inherit;text-decoration:none;}
+.snsk section{padding:72px clamp(22px,4vw,64px);}
+.snsk .inner{max-width:1760px;margin:0 auto;}
+.snsk .disp{font-family:"Cormorant Garamond",Georgia,serif;}
+.snsk .sec-label{display:flex;align-items:center;gap:14px;font-size:12px;letter-spacing:.3em;color:var(--kin);margin-bottom:14px;}
+.snsk .sec-label:before{content:"";width:36px;height:1px;background:var(--kin);}
+.snsk h2.sec-title{font-family:"Cormorant Garamond",Georgia,serif;font-size:clamp(27px,3.8vw,40px);font-weight:600;letter-spacing:.02em;line-height:1.35;margin-bottom:30px;}
+.snsk .sec-intro{max-width:760px;color:var(--sumi2);font-size:15.5px;margin-bottom:38px;}
+/* language switch */
+.snsk .lang{position:absolute;top:22px;right:clamp(20px,4vw,48px);display:flex;align-items:center;gap:10px;font-size:12px;letter-spacing:.16em;color:var(--hai);z-index:2;}
+.snsk .lang a{padding:4px 2px;border-bottom:1px solid transparent;transition:all .25s;}
+.snsk .lang a:hover{color:var(--ai);border-bottom-color:var(--ai);}
+.snsk .lang a.on{color:var(--sumi);border-bottom-color:var(--kin);}
+/* hero */
+.snsk .hero{background:radial-gradient(ellipse 900px 500px at 85% 10%,rgba(30,58,95,.10),transparent 60%),radial-gradient(ellipse 700px 420px at 8% 90%,rgba(176,141,62,.12),transparent 60%),linear-gradient(175deg,var(--kinari),var(--kinari2));padding:96px 22px 64px;position:relative;overflow:hidden;text-align:center;}
+.snsk .hero > .inner{display:flex;flex-direction:column;align-items:center;text-align:center;}
+.snsk .hero-tate{font-family:"Cormorant Garamond",Georgia,serif;font-size:clamp(34px,5.6vw,64px);font-weight:600;letter-spacing:.01em;line-height:1.3;max-width:15em;}
+.snsk .hero-tate .accent{color:var(--ai);}
+.snsk .hero .hero-lead{margin:32px auto 0;max-width:600px;font-size:15.5px;color:var(--sumi2);text-align:center;}
+.snsk .hero .hero-tags{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin-top:28px;width:100%;}
+.snsk .tag{font-size:11.5px;letter-spacing:.12em;border:1px solid var(--kin);color:var(--kin);padding:6px 16px;border-radius:999px;background:rgba(255,255,255,.5);text-transform:uppercase;}
+.snsk .jump{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;margin-top:34px;width:100%;}
+.snsk .jump a{padding:12px 26px;font-size:13px;letter-spacing:.1em;border-radius:2px;border:1px solid var(--sumi2);transition:all .3s;}
+.snsk .jump a:hover{background:var(--sumi);color:var(--kinari);}
+.snsk .jump a.pr{background:var(--ai);border-color:var(--ai);color:var(--kinari);}
+.snsk .jump a.pr:hover{background:var(--ai2);}
+/* philosophy */
+.snsk .phil-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:start;max-width:1280px;margin:0 auto;}
+.snsk .phil-points{display:flex;flex-direction:column;gap:24px;}
+.snsk .phil-point{background:#fff;border:1px solid rgba(31,28,26,.07);padding:26px 28px;border-radius:4px;box-shadow:0 3px 14px rgba(31,28,26,.05);position:relative;}
+.snsk .phil-point:before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:linear-gradient(var(--kin),var(--kin2));border-radius:4px 0 0 4px;}
+.snsk .phil-point h3{font-size:17px;letter-spacing:.02em;margin-bottom:10px;color:var(--ai);font-weight:600;}
+.snsk .phil-point p{font-size:14.5px;color:var(--sumi2);}
+.snsk .phil-visual{background:linear-gradient(160deg,var(--ai),var(--ai2));color:var(--kinari);border-radius:4px;padding:44px 38px;position:relative;overflow:hidden;}
+.snsk .phil-visual:before{content:"米";position:absolute;right:-30px;bottom:-60px;font-size:220px;opacity:.07;font-weight:700;font-family:"Yu Mincho","Hiragino Mincho ProN",serif;}
+.snsk .phil-visual h3{font-family:"Cormorant Garamond",Georgia,serif;font-size:26px;letter-spacing:.02em;margin-bottom:18px;font-weight:600;}
+.snsk .phil-visual p{font-size:14.5px;opacity:.92;margin-bottom:14px;position:relative;}
+.snsk .phil-visual .divider{width:40px;height:1px;background:var(--kin2);margin:22px 0;}
+.snsk .phil-stat{display:flex;gap:32px;flex-wrap:wrap;position:relative;}
+.snsk .phil-stat strong{display:block;font-size:28px;color:var(--kin2);letter-spacing:.02em;}
+.snsk .phil-stat span{font-size:11.5px;opacity:.85;letter-spacing:.1em;text-transform:uppercase;}
+/* brewery */
+.snsk .sec-alt{background:linear-gradient(180deg,var(--kinari2),var(--kinari));}
+.snsk .kura-grid{display:grid;grid-template-columns:5fr 4fr;gap:48px;align-items:center;max-width:1280px;margin:0 auto;}
+.snsk .kura-photo{aspect-ratio:4/3;border-radius:4px;overflow:hidden;position:relative;background:linear-gradient(rgba(22,41,63,.25),rgba(22,41,63,.45)),repeating-linear-gradient(90deg,#4b4038 0 14px,#5a4d43 14px 15px),#4b4038;display:flex;align-items:flex-end;}
+.snsk .kura-photo .caption{color:var(--kinari);font-size:12px;letter-spacing:.1em;padding:16px 20px;opacity:.9;}
+.snsk .kura-photo .noren{position:absolute;top:0;left:50%;transform:translateX(-50%);width:70%;height:38%;background:linear-gradient(var(--ai2),var(--ai));border-radius:0 0 8px 8px;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 24px rgba(0,0,0,.3);}
+.snsk .kura-photo .noren span{writing-mode:vertical-rl;color:var(--kinari);font-family:"Yu Mincho","Hiragino Mincho ProN",serif;font-size:clamp(18px,2.4vw,24px);letter-spacing:.3em;font-weight:600;}
+.snsk .kura-detail h3{font-family:"Cormorant Garamond",Georgia,serif;font-size:25px;letter-spacing:.02em;margin-bottom:16px;font-weight:600;}
+.snsk .kura-detail p{font-size:14.5px;color:var(--sumi2);margin-bottom:16px;}
+.snsk .kura-facts{margin-top:24px;border-top:1px solid rgba(31,28,26,.12);}
+.snsk .kura-facts dl{display:grid;grid-template-columns:150px 1fr;border-bottom:1px solid rgba(31,28,26,.12);padding:12px 4px;font-size:13.5px;gap:12px;}
+.snsk .kura-facts dt{color:var(--kin);letter-spacing:.08em;font-weight:400;font-size:12px;text-transform:uppercase;padding-top:2px;}
+.snsk .kura-facts dd{color:var(--sumi2);}
+/* fields */
+.snsk .field-wide{border-radius:4px;overflow:hidden;margin-bottom:30px;position:relative;}
+.snsk .field-wide img{width:100%;height:clamp(220px,38vw,420px);object-fit:cover;object-position:center 60%;}
+.snsk .fw-cap{position:absolute;left:0;right:0;bottom:0;background:linear-gradient(transparent,rgba(31,28,26,.65));color:var(--kinari);font-size:12.5px;letter-spacing:.08em;padding:34px 20px 14px;}
+.snsk .field-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;}
+.snsk .field-item{border-radius:4px;overflow:hidden;background:#fff;border:1px solid rgba(31,28,26,.08);box-shadow:0 3px 14px rgba(31,28,26,.05);}
+.snsk .field-item img{width:100%;aspect-ratio:3/4;object-fit:cover;}
+.snsk .f-cap{padding:12px 14px 14px;}
+.snsk .f-cap b{display:block;font-size:13.5px;color:var(--ai);letter-spacing:.04em;margin-bottom:3px;}
+.snsk .f-cap span{font-size:12px;color:var(--hai);letter-spacing:.01em;line-height:1.6;display:block;}
+/* product */
+.snsk .prod{background:var(--sumi);color:var(--kinari);}
+.snsk .prod .sec-label{color:var(--kin2);} .snsk .prod .sec-label:before{background:var(--kin2);}
+.snsk .prod .sec-intro{color:rgba(247,244,236,.75);}
+.snsk .prod-feature{background:rgba(247,244,236,.05);border:1px solid rgba(247,244,236,.16);border-radius:4px;padding:clamp(28px,5vw,56px);}
+.snsk .prod-stage-wide{border-radius:4px;margin:0 auto 40px;position:relative;display:flex;align-items:center;justify-content:center;background:radial-gradient(ellipse at center,rgba(247,244,236,.06),rgba(247,244,236,0) 70%);}
+.snsk .prod-feature .prod-photo-wide{display:block;width:auto;max-width:100%;height:auto;max-height:78vh;object-fit:contain;margin:0 auto;border-radius:4px;}
+.snsk .prod-detail{max-width:660px;margin:0 auto;text-align:center;}
+.snsk .prod-detail .prod-spec{text-align:left;}
+.snsk .prod-detail .price{text-align:center;}
+.snsk .p-kicker{font-size:11.5px;letter-spacing:.3em;color:var(--kin2);margin-bottom:12px;text-transform:uppercase;}
+.snsk .prod-detail h3{font-family:"Cormorant Garamond",Georgia,serif;font-size:clamp(25px,3.4vw,34px);letter-spacing:.01em;margin-bottom:14px;font-weight:600;}
+.snsk .prod-detail>p{font-size:14.5px;color:rgba(247,244,236,.82);margin-bottom:14px;}
+.snsk .prod-spec{margin:24px 0;border-top:1px solid rgba(247,244,236,.18);}
+.snsk .prod-spec dl{display:grid;grid-template-columns:175px 1fr;border-bottom:1px solid rgba(247,244,236,.14);padding:10px 4px;font-size:13.5px;gap:12px;}
+.snsk .prod-spec dt{color:var(--kin2);letter-spacing:.08em;font-weight:400;font-size:12px;text-transform:uppercase;padding-top:2px;}
+.snsk .prod-spec dd{color:rgba(247,244,236,.85);}
+.snsk .price{font-size:17px;letter-spacing:.04em;margin-top:14px;}
+.snsk .price small{font-size:11px;opacity:.7;}
+.snsk .prod-note{margin-top:30px;font-size:12px;color:rgba(247,244,236,.55);text-align:center;letter-spacing:.04em;}
+/* stories (radio tabs) */
+.snsk .story-tabs{display:flex;flex-wrap:wrap;gap:10px;max-width:1280px;margin:0 auto 40px;}
+.snsk .story-tabs label{font-size:13px;letter-spacing:.04em;padding:10px 20px;border-radius:999px;cursor:pointer;border:1px solid rgba(31,28,26,.2);background:#fff;color:var(--sumi2);transition:all .25s;}
+.snsk .story-tabs label:hover{border-color:var(--ai);color:var(--ai);}
+.snsk .st-in{display:none;}
+.snsk .story-panel{display:none;}
+#snsk-t1:checked~.snsk-tabs-wrap label[for=snsk-t1],#snsk-t2:checked~.snsk-tabs-wrap label[for=snsk-t2],#snsk-t7:checked~.snsk-tabs-wrap label[for=snsk-t7],#snsk-t3:checked~.snsk-tabs-wrap label[for=snsk-t3],#snsk-t4:checked~.snsk-tabs-wrap label[for=snsk-t4],#snsk-t5:checked~.snsk-tabs-wrap label[for=snsk-t5],#snsk-t6:checked~.snsk-tabs-wrap label[for=snsk-t6]{background:var(--ai);border-color:var(--ai);color:var(--kinari);}
+#snsk-t1:checked~.snsk-panels .sp1,#snsk-t2:checked~.snsk-panels .sp2,#snsk-t7:checked~.snsk-panels .sp7,#snsk-t3:checked~.snsk-panels .sp3,#snsk-t4:checked~.snsk-panels .sp4,#snsk-t5:checked~.snsk-panels .sp5,#snsk-t6:checked~.snsk-panels .sp6{display:block;}
+.snsk .story-article{background:#fff;border:1px solid rgba(31,28,26,.07);border-radius:4px;padding:clamp(26px,5vw,52px);box-shadow:0 4px 20px rgba(31,28,26,.05);max-width:920px;margin:0 auto;}
+.snsk .story-article h3{font-family:"Cormorant Garamond",Georgia,serif;font-size:clamp(24px,3vw,32px);letter-spacing:.01em;margin-bottom:8px;font-weight:600;line-height:1.3;}
+.snsk .story-article .en{font-size:11px;letter-spacing:.3em;color:var(--kin);margin-bottom:28px;text-transform:uppercase;}
+.snsk .story-article h4{font-size:17px;letter-spacing:.01em;color:var(--ai);margin:32px 0 12px;padding-left:14px;border-left:3px solid var(--kin);line-height:1.5;font-weight:600;}
+.snsk .story-article p{font-size:15px;color:var(--sumi2);margin-bottom:14px;}
+.snsk .story-article .lead{font-size:16px;color:var(--sumi);padding:20px 24px;background:var(--kinari);border-radius:4px;margin-bottom:24px;}
+.snsk .timeline{margin:18px 0 8px;list-style:none;}
+.snsk .timeline li{display:grid;grid-template-columns:200px 1fr;gap:16px;padding:12px 0;border-bottom:1px dashed rgba(31,28,26,.15);font-size:14.5px;}
+.snsk .timeline li b{color:var(--ai);letter-spacing:.02em;font-weight:600;}
+.snsk .timeline li span{color:var(--sumi2);}
+.snsk .step-flow{counter-reset:step;margin:18px 0;list-style:none;}
+.snsk .step-flow li{position:relative;padding:15px 18px 15px 64px;margin-bottom:12px;background:var(--kinari);border-radius:4px;font-size:14.5px;color:var(--sumi2);}
+.snsk .step-flow li:before{counter-increment:step;content:counter(step);position:absolute;left:16px;top:22px;width:32px;height:32px;border-radius:50%;background:var(--ai);color:var(--kinari);display:flex;align-items:center;justify-content:center;font-size:14px;}
+.snsk .step-flow li b{color:var(--sumi);display:block;margin-bottom:2px;font-size:15px;font-weight:600;}
+.snsk .table-wrap{overflow-x:auto;margin:16px 0;}
+.snsk table.compare{width:100%;border-collapse:collapse;font-size:13.5px;min-width:520px;}
+.snsk .compare th,.snsk .compare td{border:1px solid rgba(31,28,26,.14);padding:10px 13px;text-align:left;vertical-align:top;}
+.snsk .compare th{background:var(--ai);color:var(--kinari);font-weight:600;letter-spacing:.02em;}
+.snsk .compare td:first-child{background:var(--kinari2);color:var(--ai);font-weight:600;}
+.snsk .compare .hl{background:rgba(176,141,62,.12);}
+.snsk .kuchi-note{margin-top:24px;padding:16px 20px;font-size:13.5px;color:var(--sumi2);border:1px dashed var(--kin);border-radius:4px;background:rgba(176,141,62,.05);}
+.snsk .kuchi-note b{color:var(--kin);}
+/* cta */
+.snsk .cta{background:linear-gradient(160deg,var(--ai),var(--ai2));color:var(--kinari);text-align:center;}
+.snsk .cta h2{font-family:"Cormorant Garamond",Georgia,serif;font-size:clamp(26px,3.6vw,38px);letter-spacing:.02em;margin-bottom:16px;font-weight:600;}
+.snsk .cta p{max-width:660px;margin:0 auto 12px;font-size:14.5px;opacity:.9;}
+.snsk .law{padding:26px 22px;font-size:11.5px;color:var(--hai);text-align:center;letter-spacing:.02em;background:var(--kinari);line-height:1.8;}
+@media(max-width:860px){
+ .snsk .phil-grid,.snsk .kura-grid{grid-template-columns:1fr;}
+ .snsk .field-grid{grid-template-columns:repeat(2,1fr);}
+ .snsk .timeline li{grid-template-columns:1fr;gap:2px;}
+ .snsk .kura-facts dl,.snsk .prod-spec dl{grid-template-columns:1fr;gap:2px;}
+ .snsk .lang{top:16px;right:18px;}
+ .snsk .hero{padding-top:76px;}
+}
+</style>
+
+<div class="snsk">
+<section class="hero" id="snsk-top">
+ <div class="lang"><a href="/">日本語</a><span>/</span><a href="/en/" class="on">English</a></div>
+ <div class="inner">
+  <div class="hero-tate">From the soil, the rice.<br>From the rice, <span class="accent">the sake.</span></div>
+  <p class="hero-lead">No pesticides. No fertilizer — not even the organic kind. Our sake is brewed from one ingredient: Hatsushimo rice, raised by soil, water, and the strength of the plant itself, then brewed bottle by bottle at Kuramoto Shuzo, a small brewery in the mountains of Tsuge, Nara. The life of the rice becomes the sake. That is what we mean by natural sake.</p>
+  <div class="hero-tags"><span class="tag">100% natural-cultivation rice</span><span class="tag">No pesticides, no fertilizer</span><span class="tag">Hatsushimo, seed-saved 15+ years</span><span class="tag">Kuramoto Shuzo, Nara</span></div>
+  <div class="jump"><a class="pr" href="#snsk-product">See the sake</a><a href="#snsk-stories">About natural sake</a><a href="#snsk-fields">The rice fields</a></div>
+ </div>
+</section>
+
+<section id="snsk-phil">
+ <div class="inner">
+  <div class="sec-label">OUR PHILOSOPHY</div>
+  <h2 class="sec-title">Brewing with nothing but naturally grown rice.</h2>
+  <p class="sec-intro">It is often said that eighty percent of a sake's character is decided by rice and water. We began at that starting point and narrowed it as far as it will go: only rice grown without pesticides, without chemical fertilizer, and without organic fertilizer either — rice raised by the soil alone. The yield is roughly half that of conventional farming. What comes back in return is a clarity no other rice gives us.</p>
+  <div class="phil-grid">
+   <div class="phil-points">
+    <div class="phil-point"><h3>One — Naturally cultivated rice, and nothing else</h3><p>No pesticides. No chemical fertilizer. Not even the compost and organic inputs that certified organic farming allows. We brew only with rice raised by the microbial life of the soil and the vitality of the plant itself.</p></div>
+    <div class="phil-point"><h3>Two — Hatsushimo, seed-saved for over fifteen years</h3><p>Our variety is Hatsushimo, from Kyoto. Each autumn we take seed from the plants that ripened best and carry it into the following spring. We have done this for more than fifteen years. Rice that is never bought, only continued, adapts season by season to the soil and weather of its own field — and grows strong even where nothing is added.</p></div>
+    <div class="phil-point"><h3>Three — Small batches, brewed in Tsuge, Nara</h3><p>The brewing happens at Kuramoto Shuzo, on a highland plateau roughly 500 meters above sea level. Cold winters, soft water rising from the mountain behind the brewery, and technique carried down through generations — batch by careful batch.</p></div>
+   </div>
+   <div class="phil-visual">
+    <h3>Why we give the plant nothing</h3>
+    <p>A rice plant that is fed has no reason to reach. A plant that is given nothing sends its roots down, and further down, looking for what it needs.</p>
+    <p>That reach is what makes the grain clean, and what gives the sake its brightness and its quiet, cleanly cut finish.</p>
+    <div class="divider"></div>
+    <div class="phil-stat"><div><strong>0</strong><span>Pesticides &amp; fertilizer</span></div><div><strong>100%</strong><span>Natural-cultivation rice</span></div><div><strong>15 yrs+</strong><span>Seed-saved Hatsushimo</span></div></div>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section class="sec-alt" id="snsk-kura">
+ <div class="inner">
+  <div class="sec-label">THE BREWERY</div>
+  <h2 class="sec-title">Brewed at Kuramoto Shuzo, in Tsuge, Nara.</h2>
+  <div class="kura-grid">
+   <div class="kura-photo"><div class="noren"><span>倉本酒造</span></div><div class="caption">Hayama, Tsuge, Nara — a brewery in the mountains at roughly 500m</div></div>
+   <div class="kura-detail">
+    <h3>Founded in 1871, living alongside mountain water</h3>
+    <p>Kuramoto Shuzo was founded in 1871, in Tsuge on the Yamato Plateau in northeastern Nara. For more than a century and a half it has brewed at around 500 meters above sea level, where the winters are genuinely cold. The brewing water is soft — filtered through the strata of the mountain behind the brewery, land the family has protected for generations — carrying calcium and very little magnesium. That water is what makes the fermentation gentle and the sake round.</p>
+    <p>Alongside Kingaku and Tsuge no Himuro, both long loved locally, the brewery launched a new label, KURAMOTO, in 2018 — pursuing a modern standard for sake without letting go of the tradition behind it. Its deep study of bodaimoto, Nara's historic lactic-acid starter, is grounded in research into lactic acid bacteria. That technique and that philosophy are what draw the most out of naturally cultivated rice.</p>
+    <div class="kura-facts">
+     <dl><dt>Founded</dt><dd>1871 (Meiji 4)</dd></dl>
+     <dl><dt>Location</dt><dd>Hayama, Tsuge, Nara City, Nara Prefecture</dd></dl>
+     <dl><dt>Setting</dt><dd>Yamato Plateau, approx. 500m elevation, cool climate</dd></dl>
+     <dl><dt>Brewing water</dt><dd>Soft water from the mountain behind the brewery (low magnesium)</dd></dl>
+     <dl><dt>Labels</dt><dd>Kingaku, Tsuge no Himuro, KURAMOTO, and others</dd></dl>
+    </div>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section id="snsk-fields" style="padding-top:0;">
+ <div class="inner">
+  <div class="sec-label">THE RICE FIELDS</div>
+  <h2 class="sec-title">A year in the Hatsushimo paddies.</h2>
+  <p class="sec-intro">A paddy with no pesticides and no fertilizer is full of living things — frogs, spiders, dragonflies, all of it. This is a year in the Kyoto fields where Hatsushimo, seed-saved for more than fifteen years, grows.</p>
+  <div class="field-wide"><img src="https://cdn.shopify.com/s/files/1/3104/1966/files/sake-field-gold.jpg?v=1787140990" alt="Hatsushimo rice ripened gold in the evening light"><div class="fw-cap">Hatsushimo before the harvest, in evening light — this is what a field with nothing added can give.</div></div>
+  <div class="field-grid">
+   <div class="field-item"><img src="https://cdn.shopify.com/s/files/1/3104/1966/files/sake-field-rain.jpg?v=1787140991" alt="Newly planted paddy in the rain"><div class="f-cap"><b>Early summer — Planting</b><span>Young seedlings taking the rain. A year of natural cultivation begins here.</span></div></div>
+   <div class="field-item"><img src="https://cdn.shopify.com/s/files/1/3104/1966/files/sake-field-green.jpg?v=1787140990" alt="Rice plants tillering in midsummer green"><div class="f-cap"><b>Midsummer — Tillering</b><span>Nothing is fed to it. The roots go deep instead, and the plant grows strong.</span></div></div>
+   <div class="field-item"><img src="https://cdn.shopify.com/s/files/1/3104/1966/files/sake-field-ears.jpg?v=1787140990" alt="Hatsushimo rice heading in early autumn"><div class="f-cap"><b>Early autumn — Heading</b><span>The heads begin to bow. The whole field takes on the sense of ripening.</span></div></div>
+   <div class="field-item"><img src="https://cdn.shopify.com/s/files/1/3104/1966/files/sake-field-harvest.jpg?v=1787140990" alt="Family harvesting rice by hand with sickles"><div class="f-cap"><b>Autumn — Harvest</b><span>By hand, with a sickle, one clump at a time. Next year's seed is chosen here.</span></div></div>
+  </div>
+ </div>
+</section>
+
+<section class="prod" id="snsk-product">
+ <div class="inner">
+  <div class="sec-label">THE SAKE</div>
+  <h2 class="sec-title">Peace "以和為貴"</h2>
+  <p class="sec-intro">100% naturally cultivated rice, brewed at Kuramoto Shuzo. Batches are small, so we ask your understanding when a release has sold out.</p>
+  <div class="prod-feature">
+   <div class="prod-stage-wide"><img class="prod-photo-wide" src="https://cdn.shopify.com/s/files/1/3104/1966/files/sake-bottle-tatami.jpg?v=1787140990" alt="Peace 以和為貴 Junmai Ginjo bottle"></div>
+   <div class="prod-detail">
+    <div class="p-kicker">YUSANDO — Tradition × Nature</div>
+    <h3>Peace "以和為貴" Junmai Ginjo</h3>
+    <p>Brewed from a single rice: Hatsushimo from Kyoto, naturally cultivated and seed-saved for over fifteen years, polished down to sixty percent. The clean vitality of rice that rooted deep in an unfertilized field is drawn slowly into sake by Kuramoto Shuzo's soft water and the cold air of Tsuge, through a long, low-temperature fermentation. A fruit-like aroma, a pleasant acidity, and a finish that closes quietly. The name comes from Prince Shotoku's words — <em>harmony is to be valued</em> — and the bottle carries that wish for peace.</p>
+    <div class="prod-spec">
+     <dl><dt>Rice</dt><dd>Natural-cultivation Hatsushimo, 100% (Kyoto; no pesticides or fertilizer; seed-saved 15+ years)</dd></dl>
+     <dl><dt>Classification</dt><dd>Junmai Ginjo</dd></dl>
+     <dl><dt>Polishing ratio</dt><dd>60%</dd></dl>
+     <dl><dt>Brewery</dt><dd>Kuramoto Shuzo (Hayama, Tsuge, Nara City, Nara)</dd></dl>
+     <dl><dt>Character</dt><dd>Fruity · Bright acidity · Clean finish</dd></dl>
+     <dl><dt>Volume</dt><dd>720ml</dd></dl>
+     <dl><dt>Production</dt><dd>Limited to 750 bottles</dd></dl>
+    </div>
+    <div class="price">¥2,500 <small>(tax included)</small></div>
+   </div>
+  </div>
+  <p class="prod-note">Not available by mail order. For inquiries, please reach us by DM. / The label design is subject to change. / We do not sell alcohol to anyone under the age of 20.</p>
+ </div>
+</section>
+
+<section id="snsk-stories">
+ <div class="inner">
+  <div class="sec-label">STORIES</div>
+  <h2 class="sec-title">Reading — natural sake, in more depth.</h2>
+  <p class="sec-intro">Behind a single cup sit two thousand years of history and one year in a rice field. The more you know, the more there is to taste.</p>
+  <input class="st-in" type="radio" name="snsk-st" id="snsk-t1" checked>
+  <input class="st-in" type="radio" name="snsk-st" id="snsk-t2">
+  <input class="st-in" type="radio" name="snsk-st" id="snsk-t7">
+  <input class="st-in" type="radio" name="snsk-st" id="snsk-t3">
+  <input class="st-in" type="radio" name="snsk-st" id="snsk-t4">
+  <input class="st-in" type="radio" name="snsk-st" id="snsk-t5">
+  <input class="st-in" type="radio" name="snsk-st" id="snsk-t6">
+  <div class="snsk-tabs-wrap story-tabs">
+   <label for="snsk-t1">History of sake</label>
+   <label for="snsk-t2">History of natural farming</label>
+   <label for="snsk-t7">Growing rice naturally</label>
+   <label for="snsk-t3">What "natural sake" means</label>
+   <label for="snsk-t4">What makes Junmai Ginjo different</label>
+   <label for="snsk-t5">How sake is made</label>
+   <label for="snsk-t6">The sake of Nara</label>
+  </div>
+  <div class="snsk-panels">
+
+   <div class="story-panel sp1"><article class="story-article">
+    <h3>The history of sake — from offering to the gods to SAKE worldwide</h3>
+    <div class="en">History of Sake</div>
+    <p class="lead">Sake began when rice farming arrived. For more than two thousand years it has sat between people and their gods, at the center of festivals and of ordinary life. Here is that long story, at a walk.</p>
+    <h4>It started as something offered to the gods</h4>
+    <p>Wet-rice cultivation reached Japan in the Yayoi period, and it is thought that fermented rice drink began soon after. The Chinese <em>Records of Wei</em> notes that the people of Wa were fond of drink; the <em>Kojiki</em> and <em>Nihon Shoki</em> are full of sake in myth — including the <em>yashiori no sake</em> brewed to subdue the eight-headed serpent Yamata no Orochi. Before it was anything else, sake was <em>shinsen</em>: an offering set before the gods.</p>
+    <h4>The temples that refined it — "sobo-shu"</h4>
+    <p>In the Heian period the imperial <em>Miki no Tsukasa</em> oversaw brewing, but by the medieval era the center had moved to the temples. The <em>sobo-shu</em> brewed at temples in Nara was judged the finest of its age. At Shoryaku-ji, the techniques that underpin modern clear sake were established: <em>bodaimoto</em>, which uses lactic acid bacteria to hold off spoilage organisms; <em>morohaku</em>, using polished white rice for both the koji and the main mash; and pasteurization by heating. This is why Nara is called the birthplace of clear sake.</p>
+    <h4>Edo sake, modern sake</h4>
+    <p>In the Edo period the great brewing regions — Nada, Fushimi — came into their own, and cold-season brewing and the <em>toji</em> master-brewer system took hold. From the Meiji era onward, science entered: pure yeast culture and the fast-souring <em>sokujo</em> starter made quality reliable. After the rice shortages of the war years, the late Showa period brought the flowering of <em>tokutei meisho-shu</em> — ginjo, junmai and the rest — and an era of competing on quality rather than volume.</p>
+    <h4>And then, SAKE</h4>
+    <p>In 2024, traditional Japanese sake brewing was inscribed on UNESCO's list of Intangible Cultural Heritage; sake became, formally, part of the world's culture. As its popularity abroad keeps rising, one question is being asked again: <em>how was the rice grown?</em> Our natural sake sits at the leading edge of those two thousand years and turns back toward the beginning — toward the growing of rice.</p>
+    <ul class="timeline">
+      <li><b>Yayoi period</b><span>Rice cultivation arrives; rice-based drink begins</span></li>
+      <li><b>Nara – Heian</b><span>Brewing under the imperial office; the <em>Engishiki</em> records many kinds of sake</span></li>
+      <li><b>Muromachi period</b><span>Bodaimoto and morohaku brewing established at Shoryaku-ji in Nara — the birthplace of clear sake</span></li>
+      <li><b>Edo period</b><span>Nada and Fushimi flourish; cold-season brewing and the toji system take hold</span></li>
+      <li><b>Meiji – Showa</b><span>Pure yeast culture, the sokujo starter, and the shift from grading to designated types</span></li>
+      <li><b>2024</b><span>Traditional sake brewing inscribed as UNESCO Intangible Cultural Heritage</span></li>
+    </ul>
+   </article></div>
+
+   <div class="story-panel sp2"><article class="story-article">
+    <h3>The history of natural cultivation — the farming that adds nothing</h3>
+    <div class="en">History of Natural Farming</div>
+    <p class="lead">Natural cultivation uses no pesticides and no chemical fertilizer — and no compost or organic fertilizer either. The crop is grown by the soil and the plant alone. The idea has its roots in Japan.</p>
+    <h4>The source — Mokichi Okada and Masanobu Fukuoka</h4>
+    <p>One origin of the philosophy is the fertilizer-free farming proposed by Mokichi Okada in the 1930s: soil already holds the power to raise a crop, and fertilizer tends to diminish rather than add to it. Masanobu Fukuoka, known worldwide for <em>The One-Straw Revolution</em> (1975), argued for no tilling, no fertilizer, no pesticides and no weeding — and his thinking went on to shape permaculture well beyond Japan.</p>
+    <h4>"Miracle apples," and the spread</h4>
+    <p>What brought the term into wide public view was Akinori Kimura, an apple farmer in Aomori. He spent roughly a decade achieving what everyone had told him was impossible: apples grown with no pesticides and no fertilizer. His story became a book and then a film — <em>Miracle Apples</em> — and from there the challenge spread to rice and vegetable growers across the country.</p>
+    <h4>How is it different from organic?</h4>
+    <div class="table-wrap"><table class="compare">
+      <tr><th></th><th>Conventional</th><th>Organic</th><th class="hl">Natural cultivation</th></tr>
+      <tr><td>Pesticides</td><td>Used</td><td>No synthetic pesticides</td><td class="hl">Not used</td></tr>
+      <tr><td>Chemical fertilizer</td><td>Used</td><td>Not used</td><td class="hl">Not used</td></tr>
+      <tr><td>Organic fertilizer, compost</td><td>Sometimes used</td><td>Used</td><td class="hl">Not used</td></tr>
+      <tr><td>What raises the crop</td><td>Inputs and management</td><td>Soil building and inputs</td><td class="hl">The soil ecosystem and the plant itself</td></tr>
+    </table></div>
+    <p>Precisely because nothing is given, the plant roots deeply on its own and grows in partnership with the microbial life beneath it. The yield falls well below conventional farming. What ripens instead is rice with little coarseness and a great deal of life in it.</p>
+    <h4>Why natural cultivation for sake rice</h4>
+    <p>Sake fermentation is microbial work: koji turns the starch of rice into sugar while yeast turns that sugar into alcohol. Rice that carries no excess nutrient ferments straightforwardly, and is said to yield sake that is clear and cleanly cut. Brewing borrows the power of microbes; natural cultivation grows the rice with the power of microbes. The two belong together more naturally than it first appears.</p>
+   </article></div>
+
+   <div class="story-panel sp7"><article class="story-article">
+    <h3>Growing rice naturally — a year that runs from seed to seed</h3>
+    <div class="en">Rice Growing, the Natural Way</div>
+    <p class="lead">Natural cultivation does not end at the harvest. Seed for the following year is chosen from the plants that ripened best, and carried into the next spring. Hatsushimo has come around that circle for more than fifteen years. Here is a year in a field where nothing is added.</p>
+    <h4>It begins with the seed — saving your own</h4>
+    <p>In most paddies, buying seed rice each year is simply how it is done. We don't. In autumn we take seed from the healthiest plants in the field and use it for the following year. Over more than fifteen years of doing this, Hatsushimo has slowly fitted itself to the soil of this field and the weather of this place, becoming a rice that grows strongly without fertilizer — a rice belonging to this field alone. To carry the seed forward is also to carry the memory of the land.</p>
+    <h4>Spring — raising seedlings, and planting</h4>
+    <p>In spring we sort the grain in salt water, keeping only the full seed that sinks, and raise strong seedlings from it. In natural cultivation we rely on neither chemical disinfection nor fertilizer, even at the seedling stage. Planting is done with generous space between clumps: give each plant enough light and air, and it will tiller on its own and grow resistant to disease.</p>
+    <h4>Summer — the real work is the weeds</h4>
+    <p>In a paddy with no herbicide, weeding is by far the hardest labor. We manage water depth to hold back germination, push a rotary weeder between the rows, and pull by hand whatever is left. It is plain, patient work under a hard sun — and that labor is exactly what the rice is worth. In a field without pesticides, the frogs, spiders and dragonflies come back. The abundance of living things is the clearest proof that a paddy is healthy.</p>
+    <h4>Ripening on the strength of soil alone</h4>
+    <p>In an unfertilized paddy, soil microbes break down organic matter and pass nutrients to the plant. The rice searches, rooting deep and wide, and takes its time. There is far less of the softness and pest damage that comes with excess nitrogen; the grain may run slightly smaller, but it finishes tight and clear in flavor. The yield does not come close to conventional farming. Even so, there is a transparency here that no other rice gives.</p>
+    <h4>Autumn — the harvest, and the next year</h4>
+    <p>Once the heads hang gold, the harvest begins. In our fields you will still find the whole family out with sickles, cutting by hand. From what is cut, the seed for next year is chosen — and there the circle starts again. That Hatsushimo travels in winter to Kuramoto Shuzo in Tsuge, Nara, and is brewed as Peace "以和為貴."</p>
+    <div class="kuchi-note"><b>From field to bottle:</b> the <a href="#snsk-fields" style="text-decoration:underline;">rice fields</a> section above shows this same year in photographs.</div>
+   </article></div>
+
+   <div class="story-panel sp3"><article class="story-article">
+    <h3>What "natural sake" means</h3>
+    <div class="en">Natural Sake</div>
+    <p class="lead">As natural wine grew into a category of its own, a parallel current has been moving quietly but steadily through sake — sometimes called <em>shizen-shu</em>, sometimes natural sake.</p>
+    <h4>Next door to natural wine</h4>
+    <p>Natural wine settled into restaurants and wine shops worldwide as a term for wine made with minimal intervention, from the vineyard through to the cellar. Natural sake turns that same gaze on sake. The sake given the name tends to care about three things: how the rice was farmed (no pesticides, no fertilizer), how the starter was made (kimoto, bodaimoto and their kin), and what was left out (brewer's alcohol, enzyme preparations and other additions).</p>
+    <h4>The three elements</h4>
+    <ol class="step-flow">
+      <li><b>Rice — how it was grown</b>Naturally cultivated or pesticide-free rice. This is where we place the most weight, and we limit ourselves to 100% natural-cultivation rice.</li>
+      <li><b>The starter — how fermentation is set going</b>A kimoto-family starter (kimoto, yamahai, bodaimoto) that works with the microbes and lactic acid bacteria living in the brewery. Nara is where bodaimoto began.</li>
+      <li><b>The hand — how much is left to nature</b>No additives; temperature and time as allies; people working alongside the microbes rather than over them.</li>
+    </ol>
+    <h4>Not "clean" sake — living sake</h4>
+    <p>The appeal of natural sake is not uniform beauty. It is that the memory of one year's field and one brewery's winter arrives intact in the bottle. The same label changes expression from year to year. That is not a flaw; it is what sake looks like when it is treated as an agricultural product. Through a single cup, the drinker ends up in conversation with a particular season and a particular field.</p>
+    <p>There is, as yet, no legal definition of the term. That is exactly why it matters how honestly a maker faces the word "natural." We commit to being transparent about all of it — the rice, the method, and what appears on the label.</p>
+   </article></div>
+
+   <div class="story-panel sp4"><article class="story-article">
+    <h3>What makes Junmai Ginjo different</h3>
+    <div class="en">What Makes Junmai Ginjo Special</div>
+    <p class="lead">Junmai, ginjo, daiginjo, honjozo — the words crowding a sake label come down to just two questions. How much was the rice polished away? And was brewer's alcohol added?</p>
+    <h4>The map of designated sake types</h4>
+    <div class="table-wrap"><table class="compare">
+      <tr><th>Designation</th><th>Polishing ratio</th><th>Brewer's alcohol</th><th>Character</th></tr>
+      <tr><td>Junmai</td><td>No requirement</td><td>None</td><td>Rice, water and koji only. The flavor of rice, straight</td></tr>
+      <tr class="hl"><td>Junmai Ginjo</td><td>60% or less</td><td>None</td><td>Rice alone, with ginjo brewing to draw out aroma</td></tr>
+      <tr><td>Junmai Daiginjo</td><td>50% or less</td><td>None</td><td>Polished further; more delicate, more floral</td></tr>
+      <tr><td>Honjozo</td><td>70% or less</td><td>Yes (small amount)</td><td>Light and clean on the palate</td></tr>
+      <tr><td>Ginjo / Daiginjo</td><td>60% / 50% or less</td><td>Yes (small amount)</td><td>Aromatic and light</td></tr>
+    </table></div>
+    <h4>Junmai × ginjo — the best of both</h4>
+    <p>Junmai Ginjo means sake made from <b>rice, rice koji and water only</b>, with <b>at least forty percent of each grain polished away</b> (a polishing ratio of 60% or lower), fermented slowly and cold in what is called <b>ginjo brewing</b>. The protein and fat concentrated in the outer layers of the grain are what produce coarseness, so removing them leaves a clearer flavor. The long, low-temperature fermentation then generates <em>ginjo-ka</em> — the aroma that suggests apple and melon.</p>
+    <p>So Junmai Ginjo holds both sides at once: the depth and roundness of rice that junmai gives, and the bright aroma and clean texture that ginjo gives. It sits easily alongside food, which is why it works both as a way into sake and as somewhere to stay.</p>
+    <h4>The extravagance of a naturally grown Junmai Ginjo</h4>
+    <p>Taking rice that already yields little, and then grinding away another forty percent of it — on paper it is a wildly extravagant thing to do. Our Junmai Ginjo polishes Hatsushimo, seed-saved for over fifteen years, to sixty percent, and ferments it slowly and cold. Because the rice has real strength to begin with, polishing and slow fermentation give an aroma that stays gentle, a flavor that stays clear, and a cup that seems to carry the air of the field with it. We think Junmai Ginjo is the form in which naturally cultivated rice speaks most clearly.</p>
+    <div class="kuchi-note"><b>How to drink it:</b> Junmai Ginjo shows best at around 10–15°C, lightly chilled. The aroma opens and the shape of the flavor is at its most defined. A wine glass suits it well.</div>
+   </article></div>
+
+   <div class="story-panel sp5"><article class="story-article">
+    <h3>How sake is made — the journey of a single grain</h3>
+    <div class="en">How Sake Is Made</div>
+    <p class="lead">Sake is made by <em>multiple parallel fermentation</em>, a technique with few parallels anywhere. Koji converts starch into sugar at the same moment that yeast converts that sugar into alcohol — two fermentations running together in one tank.</p>
+    <ol class="step-flow">
+      <li><b>Polishing (seimai)</b>The outer layers of brown rice are ground away, taking with them the protein and fat that cause coarseness. For Junmai Ginjo, at least 40% is removed.</li>
+      <li><b>Washing and soaking (shinseki)</b>The rice is washed and left to absorb water, timed to the second. The absorption rate decides how it steams.</li>
+      <li><b>Steaming (mushimai)</b>"Firm outside, soft within" — loose on the surface, tender at the core, the ideal texture for koji mold to work its way in.</li>
+      <li><b>Koji making (seikiku)</b>Koji spores are sown over the steamed rice and tended for around two days and nights. "First koji, second starter, third the mash" — this is the heart of the work.</li>
+      <li><b>The starter (shubo)</b>Yeast is grown up in good health while lactic acid holds off unwanted organisms. Kimoto, yamahai and bodaimoto are the traditional methods that rely on wild lactic acid bacteria.</li>
+      <li><b>The mash (moromi), in three additions</b>Steamed rice, koji and water are added in three stages over roughly three to four weeks. Fermenting it slowly and cold is what makes it ginjo brewing.</li>
+      <li><b>Pressing (joso)</b>The mash is pressed and separated into sake and lees. The aroma of new sake as it runs is a privilege reserved for the brewery crew.</li>
+      <li><b>Pasteurizing, ageing, bottling</b>After gentle heat pasteurization the sake is aged, and bottled once the flavor has settled into place.</li>
+    </ol>
+    <h4>The real makers are microbes</h4>
+    <p>Koji mold, lactic acid bacteria, yeast. Making sake is, in the end, nothing but keeping conditions right so that organisms too small to see can do their best work. The soft water rising behind Kuramoto Shuzo keeps fermentation gentle; the cool climate of Tsuge is ideal for long, cold fermentation. Naturally cultivated rice brings a straightforward, powerful fermentation into that. From the microbes of the field to the microbes of the brewery — natural sake is brewed as a relay between them.</p>
+   </article></div>
+
+   <div class="story-panel sp6"><article class="story-article">
+    <h3>The sake of Nara — the pride of where clear sake began</h3>
+    <div class="en">Sake of Nara</div>
+    <p class="lead">"Birthplace of Japanese clear sake." A stone marker carrying those words stands in the grounds of Shoryaku-ji in Nara. To brew in the home of sake carries a particular weight for us.</p>
+    <h4>It all began in Nara</h4>
+    <p>In the Muromachi period, the temple sake of Nara was known as <em>Nanto morohaku</em> and held in the highest regard in the capital as the finest drink of its day. <em>Morohaku</em> brewing, using polished white rice for both koji and mash; <em>bodaimoto</em>, using lactic fermentation to suppress spoilage; heat pasteurization to prevent it going off — the template for modern clear sake brewing is said to have been set in the Nara of that era.</p>
+    <h4>The revival of bodaimoto</h4>
+    <p>Bodaimoto had long since fallen out of use. In the late 1990s a revival project brought it back, joining Shoryaku-ji with Nara breweries and research institutions. Every January the starter is now made at the temple, and the participating breweries each brew their own bodaimoto sake. Kuramoto Shuzo has studied that tradition closely, and brings its knowledge of lactic acid bacteria to bear on its own brewing.</p>
+    <h4>The land of Yamato, and its sake</h4>
+    <p>The mountains ringing the Nara basin, the clear rivers of Yoshino, the cool air of the Yamato Plateau. Nara is also home to Omiwa Shrine, which takes Mount Miwa itself as its deity and is revered as the shrine of the god of sake — the land itself is bound up with the drink. The <em>sugidama</em>, the cedar ball hung outside breweries, is said to have originated with the cedars of that shrine.</p>
+    <h4>Nara is interesting right now</h4>
+    <p>In recent years Nara has become a place sake drinkers watch closely: breweries taking on traditional bodaimoto, recreations of ancient brewing such as Mizuhana, and a rise of small breweries with real character. Within that, we are attempting a combination that is at once the oldest and the newest — the birthplace of clear sake, and naturally cultivated rice. Just as brewing a thousand years ago was a conversation with microbes, our sake too comes out of trust in the microbial life of the field and the brewery.</p>
+   </article></div>
+
+  </div>
+ </div>
+</section>
+
+<section class="cta">
+ <div class="inner">
+  <h2>From the field to your cup.</h2>
+  <p>We share news of each season's brewing and of limited releases. For orders, or to talk about carrying the sake, reach us by Instagram DM or contact the shop directly.</p>
+ </div>
+</section>
+<div class="law">Please enjoy sake responsibly. In Japan the legal drinking age is 20, and we do not sell alcohol to anyone under 20. Never drink and drive. Please refrain from drinking during pregnancy or while nursing.</div>
+</div>
+
+</body>
+</html>
